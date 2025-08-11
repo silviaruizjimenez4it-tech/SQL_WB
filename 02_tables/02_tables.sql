@@ -1,6 +1,6 @@
 \! cls
 
--- Basics / Tabelle + Datensätze anlegen 
+-- AUTO INCREMENT / INDEX / Primärschlüssel
 
 -- DBs anzeigen
 SHOW DATABASES;
@@ -34,6 +34,8 @@ INSERT INTO kunde(k_id,k_name,k_alter) VALUES(DEFAULT,"Meier", 28);
 INSERT INTO kunde(k_id,k_name,k_alter) VALUES(DEFAULT,"Hussein", 32);
 INSERT INTO kunde(k_id,k_name,k_alter) VALUES(DEFAULT,"Li", 26);
 INSERT INTO kunde(k_id,k_name,k_alter) VALUES(DEFAULT,"Li", 40);
+INSERT INTO kunde(k_name,k_alter) VALUES("Li", 61);
+
 
 -- Tabellendaten (Inhalte) anzeigen
 SELECT * FROM kunde;
