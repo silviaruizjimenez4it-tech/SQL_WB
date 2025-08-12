@@ -1,6 +1,6 @@
 \! cls
 
--- UNIQUE
+-- UNIQUE / NOT NULL / DEFAULT
 
 -- DB anlegen, falls noch nicht existent
 CREATE DATABASE IF NOT EXISTS boo;
