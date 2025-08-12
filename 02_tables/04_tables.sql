@@ -7,8 +7,8 @@ CREATE DATABASE IF NOT EXISTS boo;
 USE boo;
 
 -- Tabelle löschen, falls existent
---  Nur bei Test / Entwicklung
-DROP TABLE IF EXISTS kunde;
+-- Nur bei Test / Entwicklung
+-- DROP TABLE IF EXISTS kunde;
 
 -- Tabelle anlegen
 CREATE TABLE IF NOT EXISTS kunde 
