@@ -1,7 +1,6 @@
 \! cls
 
 --  02 SELECT
--- geclont 
 
 -- basic
 -- SELECT 
