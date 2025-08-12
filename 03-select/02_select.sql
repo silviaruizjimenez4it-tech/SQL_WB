@@ -1,9 +1,24 @@
+\! cls
 
+--  02 SELECT
+-- geclont 
 
---02_select
-source 03-select\01_select.sql;
+-- basic
+-- SELECT 
+--     *
+-- FROM boo.contacts
+-- ;
 
--- Basic
-SELECT
-    email 
- FROM boo.contacts;
+-- SELECT 
+--     id,
+--     email
+-- FROM boo.contacts
+-- ;
+
+SELECT 
+    id,
+    email,
+    city
+FROM boo.contacts
+WHERE city = 'Berlin'
+;
