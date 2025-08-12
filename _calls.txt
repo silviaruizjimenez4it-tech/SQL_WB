@@ -8,7 +8,7 @@ source 02_tables\01_tables.sql
 source 02_tables\02_tables.sql
 source 02_tables\03_tables.sql
 source 02_tables\04_tables.sql
-
+source 03-select\01_select.sql
 
 
 
