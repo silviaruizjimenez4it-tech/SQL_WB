@@ -1,6 +1,6 @@
 \! cls
 
-Drop TABLE IF EXISTS boo.contracts;
+DROP TABLE IF EXISTS boo.contacts;
 
 -- 1. Tabelle erstellen
 CREATE TABLE IF NOT EXISTS boo.contacts (
@@ -14,10 +14,10 @@ CREATE TABLE IF NOT EXISTS boo.contacts (
     city VARCHAR(100)
 );
 
-DESCRIBE boo.contacts;boo.congracts;
+DESCRIBE boo.contacts;
 
 -- 2. 50 Datensätze mit gemischten Namen (deutsch, türkisch, arabisch) einfügen
-INSERT INTO contacts (id, name, address, phone, email, age, state, city) VALUES
+INSERT INTO boo.contacts (id, name, address, phone, email, age, state, city) VALUES
 (1, 'Sophia Müller', 'Musterstraße 1', '030/123456', 'sophia.mueller@example.de', 25, 'Berlin', 'Berlin'),
 (2, 'Ahmet Yılmaz', 'Hauptstraße 2', '0221/987654', 'ahmet.yilmaz@example.de', 32, 'Nordrhein-Westfalen', 'Köln'),
 (3, 'Leonie Schmidt', 'Bahnhofstraße 3', '089/111222', 'leonie.schmidt@example.de', 28, 'Bayern', 'München'),
