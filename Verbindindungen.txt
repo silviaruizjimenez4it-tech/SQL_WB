@@ -1,0 +1,1 @@
+C:\Users\SRIU161\.dbclient\dependency\mysql\mysql.exe"--default-character-set=utf8mb4-h 172.104.249.184 -P 3306 -u rdbclient\depemote_user -p"xAcb12#@rem0te"  mydb
