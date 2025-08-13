@@ -1,6 +1,7 @@
 \! cls
 
 --  02 SELECT
+source 03-select\01_select.sql
 
 -- basic
 -- SELECT 
