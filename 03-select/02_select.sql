@@ -42,6 +42,6 @@ SELECT
 FROM languages.contacts
 -- WHERE city LIKE 'Fra%'
 WHERE city LIKE '%furt'
--- ORDER BY name ASC
-ORDER BY name DESC
+ORDER BY name ASC
+-- ORDER BY name DESC
 ;
