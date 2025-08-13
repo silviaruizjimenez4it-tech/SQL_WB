@@ -1,6 +1,7 @@
-#prompt nach exit (user & pfad sind bei Ihnen ggf unterschiedlich)
-C:\Users\IHRUSER\Desktop\SQL_WB>
+-- prompt nach exit (user & pfad sind bei Ihnen ggf unterschiedlich)
 
+
+C:\Users\IHRUSER\Desktop\SQL_WB>
 # Eingabe
 "C:\Users\CCPortal\.dbclient\dependency\mysql\mysql.exe" 
 --default-character-set=utf8mb4 

@@ -1,13 +1,13 @@
-#Grundlagen / Basics
-
+# Grundlagen / Basics
 source 01_basics\rdbms.sql
 
-#Tabellen
-
+# Tabellen
 source 02_tables\01_tables.sql
 source 02_tables\02_tables.sql
 source 02_tables\03_tables.sql
 source 02_tables\04_tables.sql
+
+# Select
 source 03-select\01_select.sql
 source 03-select\02_select.sql
 

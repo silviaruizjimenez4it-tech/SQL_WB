@@ -1,4 +1,6 @@
--- Passwort anlegen / Hash 
+\! cls
+
+--Passwort-Hashing/ Verschlüsselung/ Codierung
 
 -- DB anlegen, falls noch nicht existent
 CREATE DATABASE IF NOT EXISTS boo;
