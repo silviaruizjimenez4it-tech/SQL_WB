@@ -24,14 +24,12 @@ CREATE TABLE IF NOT EXISTS kunde
 DESCRIBE kunde;
 
 -- Datensätze/Zeilen
-INSERT INTO kunde(k_id,k_name,k_alter,k_mail,k_pw) VALUES(DEFAULT,"Meier", 28, "meier@web.de",SHA2("meier1234",256));
-INSERT INTO kunde(k_id,k_name,k_alter,k_mail,k_pw) VALUES(DEFAULT,"Hussein", 32, "hussein@web.de",SHA2("hus#!12",256));
-INSERT INTO kunde(k_id,k_name,k_alter,k_mail,k_pw) VALUES(DEFAULT,"Li", 26,"li@web.de",SHA2("li1234",256));
-INSERT INTO kunde(k_id,k_name,k_alter,k_mail,k_pw) VALUES(DEFAULT,"Li", 40,"li2@web.de",SHA2("#!aBcD",256));
-INSERT INTO kunde(k_id,k_name,k_alter,k_mail,k_pw) VALUES(DEFAULT,"Li", 62,"li_shanghai@web.de",SHA2("wau12",256));
-
-INSERT INTO kunde(k_id,k_name,k_alter,k_mail,k_pw) VALUES(DEFAULT,NULL,NULL,NULL);
-INSERT INTO kunde() VALUES();
+INSERT INTO kunde(k_id,k_name,k_alter,k_mail,k_pw) VALUES
+(DEFAULT,"Meier", 28, "meier@web.de",SHA2("meier1234",256)),
+(DEFAULT,"Hussein", 32, "hussein@web.de",SHA2("hus#!12",256)),
+(DEFAULT,"Li", 26,"li@web.de",SHA2("li1234",256)),
+(DEFAULT,"Li", 40,"li2@web.de",SHA2("#!aBcD",256)),
+(DEFAULT,"Li", 62,"li_shanghai@web.de",SHA2("wau12",256));
 
 -- Tabellendaten (Inhalte) anzeigen
 SELECT * FROM kunde;

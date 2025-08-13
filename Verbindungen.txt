@@ -2,8 +2,9 @@
 C:\Users\IHRUSER\Desktop\SQL_WB>
 
 # Eingabe
-"C:\Users\IHRUSER\.dbclient\dependency\mysql\mysql.exe" 
+"C:\Users\CCPortal\.dbclient\dependency\mysql\mysql.exe" 
 --default-character-set=utf8mb4 
 -h IHREIP -P 3306 
 -u remote_user -p"xAcb12#@rem0te"  
 mydb
+
