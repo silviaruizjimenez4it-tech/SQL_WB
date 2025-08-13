@@ -1,24 +1,47 @@
 \! cls
 
 --  02 SELECT
-source 03-select\01_select.sql
 
--- basic
+
 -- SELECT 
 --     *
--- FROM boo.contacts
+-- FROM languages.contacts
 -- ;
+
 
 -- SELECT 
 --     id,
 --     email
--- FROM boo.contacts
+-- FROM languages.contacts
 -- ;
 
+# Scharfe Suche
+-- SELECT 
+--     id,
+--     email,
+--     city
+-- FROM languages.contacts
+-- WHERE city = 'Berlin'
+-- ;
+
+# unscharfe Suche
+-- SELECT 
+--     id,
+--     email,
+--     city
+-- FROM languages.contacts
+-- -- WHERE city LIKE 'Fra%'
+-- WHERE city LIKE '%furt'
+-- ;
+
+# Sortierung
 SELECT 
-    id,
-    email,
-    city
-FROM boo.contacts
-WHERE city = 'Berlin'
+    name AS Name,
+    email AS eMail,
+    city AS Stadt
+FROM languages.contacts
+-- WHERE city LIKE 'Fra%'
+WHERE city LIKE '%furt'
+-- ORDER BY name ASC
+ORDER BY name DESC
 ;
